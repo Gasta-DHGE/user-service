@@ -20,7 +20,7 @@ export default async function (request, reply) {
     }
 
     return reply
-      .code(200)
+      .code(StatusCodes.CREATED)
       .send(userSnapshot.data());
   } catch (error) {
     return reply

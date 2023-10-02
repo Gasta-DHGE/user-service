@@ -10,4 +10,3 @@ git pull
 docker kill $container_name
 docker build -t $container_name .
 docker run -d -p port:port --name $container_name $container_name
-
